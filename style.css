@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(205deg,#1eff55, #1ed4d4, #d42020); /* Light gradient background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#wrapper {
+    background: linear-gradient(55deg, #c9bbd6 ,#e68fa9, #6dafce);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px white;
+    display: flex;
+    align-items: center;
+    transition: transform 0.5s; /* Add a smooth transition for the glitch effect */
+}
+
+#wrapper:hover {
+    transform: translateX(-50px); /* Apply a slight horizontal glitch effect on hover */
+}
+
+#wrapper span {
+    font-family: 'Orbitron';
+    font-size: 70px;
+    margin: 0 5px;
+    color: #fff;
+}
